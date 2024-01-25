@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analytics</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="first-menu">
+        <img class="logo" src="./assets/images/logo.png" alt="logo" />
+        <a href="#"><img src="./assets/images/component-1.png" alt="" /></a>
+        <a href="#"><img src="./assets/images/component-2.png" alt="" /></a>
+        <a href="#"><img src="./assets/images/component-3.png" alt="" /></a>
+        <a href="#"><img src="./assets/images/component-4.png" alt="" /></a>
+        <a href="#"><img src="./assets/images/component-5.png" alt="" /></a>
+        <a href="#"><img src="./assets/images/component-6.png" alt="" /></a>
+        <div>
+          <a href="#"><img src="./assets/images/green.png" alt="" /></a>
+          <a href="#"
+            ><img
+              src="./assets/images/moon.png"
+              alt=""
+              onclick="turnOnDarkMode()"
+          /></a>
+        </div>
+      </div>
+      <div class="other-menu">
+        <a href="#"><img src="./assets/images/component-7.png" alt="" /></a>
+        <a href="#"><img src="./assets/images/component-8.png" alt="" /></a>
+        <a href="#"><img src="./assets/images/component-9.png" alt="" /></a>
+      </div>
+    </div>
+    <div class="body-container">
+      <div class="topnav" id="myTopnav">
+        <a href="" class="active"><p class="brand">Dashboard</p></a>
+        <a href=""
+          ><div class="custom-header">
+            <div class="inputBox_container">
+              <img
+                class="search_icon"
+                src="./assets/images/search.png"
+                alt=""
+              />
+              <input
+                class="inputBox"
+                id="inputBox"
+                type="text"
+                placeholder="Search..."
+              />
+            </div>
+            <div class="profile-header-layout">
+              <div class="date-and-notification">
+                <div class="date-card">
+                  <img
+                    src="./assets/images/calendar_linear.png"
+                    alt="calendar_linear"
+                  />
+                  <p>November 15, 2023</p>
+                </div>
+                <span
+                  ><img src="./assets/images/solar_bell-outline.png" alt=""
+                /></span>
+              </div>
+              <div class="profile-header">
+                <img src="./assets/images/order_icon.png" alt="" />
+                <div class="name-and-email">
+                  <p>Justin Bergson</p>
+                  <p>Justin@email.com</p>
+                </div>
+                <img src="./assets/images/arrow-down.png" alt="arrow-down" />
+              </div>
+            </div></div
+        ></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <hr />
+      <div class="grid-container">
+        <div class="chart-section">
+          <div class="chart-container">
+            <div class="chart-title">
+              <p>Sales Trends</p>
+              <div class="sort-by">
+                <p>sort by:</p>
+                <div class="form-filter">
+                  <p>weekly</p>
+                  <img src="./assets/images/arrow-down.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="chart-div-container">
+              <canvas id="chart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="summary" id="summary-container"></div>
+        <div class="file-table">
+          <div class="file-table-title">
+            <p>Last Orders</p>
+            <p>See All</p>
+          </div>
+          <div class="table-header">
+            <p>Name</p>
+            <p>Date</p>
+            <p>Amount</p>
+            <p>Status</p>
+            <p>Invoice</p>
+          </div>
+          <div class="file-table-content" id="fileTableContent"></div>
+        </div>
+        <div class="sales-report">
+          <div class="sale-title-card">
+            <p>Top Platform</p>
+            <p>See All</p>
+          </div>
+          <div class="scroll-item" id="salesContainer"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

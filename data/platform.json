@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Book Bazaar",
+    "progress-value": 50,
+    "amount": "$2,500,000",
+    "percent": "+15%"
+  },
+  {
+    "title": "Artisan Aisle",
+    "progress-value": 40,
+    "amount": "$1,800,000",
+    "percent": "+10%"
+  },
+  {
+    "title": "Toy Troop",
+    "progress-value": 30,
+    "amount": "$1,200,000",
+    "percent": "+8%"
+  },
+  {
+    "title": "XStore",
+    "progress-value": 20,
+    "amount": "$600,000",
+    "percent": "+5%"
+  }
+]

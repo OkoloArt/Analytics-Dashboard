@@ -1,0 +1,30 @@
+[
+  {
+    "image": "./assets/images/marcus.png",
+    "name": "Marcus Bergson",
+    "date": "Nov 15, 2023",
+    "amount": "$80,000",
+    "status": "Paid"
+  },
+  {
+    "image": "./assets/images/jaydon.png",
+    "name": "Jaydon Vacaro",
+    "date": "Nov 15, 2023",
+    "amount": "$150,000",
+    "status": " Refund"
+  },
+  {
+    "image": "./assets/images/corey.png",
+    "name": "Corey Scheifer",
+    "date": "Nov 14, 2023",
+    "amount": "$87,000",
+    "status": "Paid"
+  },
+  {
+    "image": "./assets/images/cooper.png",
+    "name": "Cooper Press",
+    "date": "Nov 14, 2023",
+    "amount": "$100,000",
+    "status": " Refund"
+  }
+]

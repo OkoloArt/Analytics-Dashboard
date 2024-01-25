@@ -1,0 +1,38 @@
+[
+  {
+    "icon": "./assets/images/order_icon.png",
+    "graph-image": "./assets/images/chart-up.png",
+    "title": "Total Order",
+    "amount": 350,
+    "percent": "23.5%",
+    "month": "vs. previous month",
+    "trending-up": "./assets/images/trending-up-icon.png"
+  },
+  {
+    "icon": "./assets/images/refund-icon.png",
+    "graph-image": "./assets/images/chart-down.png",
+    "title": "Total Refund",
+    "amount": 270,
+    "percent": "23.5%",
+    "month": "vs. previous month",
+    "trending-down": "./assets/images/trending-down-icon.png"
+  },
+  {
+    "icon": "./assets/images/sales-icon.png",
+    "graph-image": "./assets/images/chart-up.png",
+    "title": "Average Sales",
+    "amount": 1567,
+    "percent": "23.5%",
+    "month": "vs. previous month",
+    "trending-up": "./assets/images/trending-up-icon.png"
+  },
+  {
+    "icon": "./assets/images/income-icon.png",
+    "graph-image": "./assets/images/chart-down.png",
+    "title": "Total Order",
+    "amount": "$350,000",
+    "percent": "23.5%",
+    "month": "vs. previous month",
+    "trending-down": "./assets/images/trending-down-icon.png"
+  }
+]
