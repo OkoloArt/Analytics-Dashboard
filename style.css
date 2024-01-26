@@ -154,7 +154,7 @@ p {
   gap: 8px;
   border-radius: 20px;
   border: 1px solid #dadddd;
-  background: var(--Neutral-White, #fff);
+  background: transparent;
 }
 
 .search_icon {
@@ -394,7 +394,7 @@ p {
   border-radius: 8px;
   flex-shrink: 0;
   border: 1px solid #edf2f7;
-  background: #fff;
+  background: transparent;
 }
 
 .sale-title-card {
