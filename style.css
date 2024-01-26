@@ -394,7 +394,7 @@ p {
   border-radius: 8px;
   flex-shrink: 0;
   border: 1px solid #edf2f7;
-  background: var(--Colors-Basic-White, #fff);
+  background: #fff;
 }
 
 .sale-title-card {
